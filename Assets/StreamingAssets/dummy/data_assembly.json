@@ -1,0 +1,415 @@
+{
+  "Id": -1,
+  "Name": "BoxAssembly",
+  "Description": "Assemble a box with the assistance of a robot arm",
+  "DurationBetweenBlocks": 0.0,
+  "DurationBetweenTrials": 0.0,
+  "Blocks": [
+    {
+      "LinkedTrials": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "IsBreak": false,
+      "ConfigId": 0,
+      "Name": "Assembly task",
+      "Description": "",
+      "Id": 0
+    }
+  ],
+  "AllConditions": [
+    {
+      "ConfigId": 0,
+      "Name": "PartWithRobotArm",
+      "Description": "",
+      "Id": 0
+    },
+    {
+      "ConfigId": 1,
+      "Name": "PartInHand",
+      "Description": "",
+      "Id": 1
+    },
+    {
+      "ConfigId": 2,
+      "Name": "PartAttached",
+      "Description": "",
+      "Id": 2
+    }
+  ],
+  "AllActions": [
+    {
+      "IsRequired": false,
+      "ConfigId": 0,
+      "Name": "GrabPiece",
+      "Description": "",
+      "Id": 0,
+      "IsPhysical": true
+    },
+    {
+      "IsRequired": false,
+      "ConfigId": 1,
+      "Name": "PieceChangeHand",
+      "Description": "",
+      "Id": 1,
+      "IsPhysical": true
+    },
+    {
+      "IsRequired": false,
+      "ConfigId": 2,
+      "Name": "DropPiece",
+      "Description": "",
+      "Id": 2,
+      "IsPhysical": true
+    },
+    {
+      "IsRequired": false,
+      "ConfigId": 3,
+      "Name": "VisualSnap",
+      "Description": "",
+      "Id": 3,
+      "IsPhysical": false
+    },
+    {
+      "IsRequired": false,
+      "ConfigId": 4,
+      "Name": "SnapPiece",
+      "Description": "",
+      "Id": 4,
+      "IsPhysical": false
+    },
+    {
+      "IsRequired": true,
+      "ConfigId": 5,
+      "Name": "ConfirmPiece",
+      "Description": "",
+      "Id": 5,
+      "IsPhysical": false
+    },
+    {
+      "IsRequired": false,
+      "ConfigId": 6,
+      "Name": "ResetPieces",
+      "Description": "",
+      "Id": 6,
+      "IsPhysical": false
+    },
+    {
+      "IsRequired": false,
+      "ConfigId": 7,
+      "Name": "ChangeInstruction",
+      "Description": "",
+      "Id": 7,
+      "IsPhysical": false
+    }
+  ],
+  "AllTrials": [
+    {
+      "LinkedActions": [],
+      "LinkedConditions": [],
+      "IsRequired": false,
+      "ConfigId": 0,
+      "Name": "Setup",
+      "Description": "",
+      "Id": 0
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 1,
+      "Name": "Piece 1",
+      "Description": "",
+      "Id": 1
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 2,
+      "Name": "Piece 2",
+      "Description": "",
+      "Id": 2
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 3,
+      "Name": "Piece 3",
+      "Description": "",
+      "Id": 3
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 4,
+      "Name": "Piece 4",
+      "Description": "",
+      "Id": 4
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 5,
+      "Name": "Piece 5",
+      "Description": "",
+      "Id": 5
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 6,
+      "Name": "Piece 6",
+      "Description": "",
+      "Id": 6
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 7,
+      "Name": "Piece 7",
+      "Description": "",
+      "Id": 7
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 8,
+      "Name": "Piece 8",
+      "Description": "",
+      "Id": 8
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 9,
+      "Name": "Piece 9",
+      "Description": "",
+      "Id": 9
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 10,
+      "Name": "Piece 10",
+      "Description": "",
+      "Id": 10
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 11,
+      "Name": "Piece 11",
+      "Description": "",
+      "Id": 11
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 12,
+      "Name": "Piece 12",
+      "Description": "",
+      "Id": 12
+    },
+    {
+      "LinkedActions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LinkedConditions": [
+        0,
+        1,
+        2
+      ],
+      "IsRequired": false,
+      "ConfigId": 13,
+      "Name": "Piece 13",
+      "Description": "",
+      "Id": 13
+    }
+  ]
+}

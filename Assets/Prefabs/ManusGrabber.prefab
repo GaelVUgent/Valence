@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4826696619828563665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4826696619828563664}
+  - component: {fileID: 4826696619828563671}
+  - component: {fileID: 701212484}
+  - component: {fileID: 1088898703}
+  - component: {fileID: 1088898699}
+  m_Layer: 8
+  m_Name: ManusGrabber
+  m_TagString: GrabProbe
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4826696619828563664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826696619828563665}
+  m_LocalRotation: {x: -0.06280637, y: 0.001638871, z: 0.0072945463, w: 0.99799776}
+  m_LocalPosition: {x: -0.1344, y: -0.0706, z: -0.0326}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4826696620966356485}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -7.2030005, y: 0.136, z: 0.82900006}
+--- !u!114 &4826696619828563671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826696619828563665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01620d919c745d4bb5721a463d00aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thumbIndexDist: 0.06
+  handball: {fileID: 4826696620966356485}
+  thumb: {fileID: 0}
+  index: {fileID: 0}
+  middle: {fileID: 0}
+  onGrabPoseChange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 701212484}
+        m_MethodName: SetGrabState
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &701212484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826696619828563665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 190563cd185ee3345a3c319db2322e06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  assembly: {fileID: 0}
+  canPlaceOnAssembly: 1
+  grabThreshold: 1
+  probes:
+  - {fileID: 1088898703}
+--- !u!114 &1088898703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826696619828563665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ba0b7d665be0f040966dc47de929674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1088898699
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826696619828563665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1, y: 0.1, z: 0.1}
+  m_Center: {x: 0, y: 0.03, z: 0}
+--- !u!1 &4826696620966356486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4826696620966356485}
+  m_Layer: 8
+  m_Name: HandBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4826696620966356485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4826696620966356486}
+  m_LocalRotation: {x: 0.11220284, y: -0.67176706, z: 0.08319282, w: 0.7274741}
+  m_LocalPosition: {x: 0.006, y: 0.0346, z: 0.0092}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4826696619828563664}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 15.963, y: -85.689, z: -1.771}

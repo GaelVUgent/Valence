@@ -1,0 +1,14 @@
+.vs/
+.vsconfig
+Library/
+Temp/
+obj/
+*.csproj
+*.sln
+Assets/_TerrainAutoUpgrade/
+Assets/StreamingAssets/Output/
+Logs/
+UserSettings/
+unityProject.vrmanifest
+Assets/Plugins/NuiTrackSDK/Tutorials/*
+Assets/SteamVR/InteractionSystem/Samples/

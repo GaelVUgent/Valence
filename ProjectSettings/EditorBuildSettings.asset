@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/_MenuScene.unity
+    guid: 9ca47cc7572f0e447bedfa1429555e14
+  - enabled: 1
+    path: Assets/_Scenes/Environment_FactoryFloor.unity
+    guid: 3427f638af4851342a31939f595b7100
+  - enabled: 1
+    path: Assets/_Scenes/BoxAssembly_Practice.unity
+    guid: 0b7d56ab0dbf0a64d8431bc839386db7
+  - enabled: 1
+    path: Assets/_Scenes/BoxAssembly_Experiment.unity
+    guid: 71c0bed26b845354892c343e188fc950
+  - enabled: 0
+    path: Assets/_Scenes/TilePuzzle_Experiment.unity
+    guid: b3fd401eeaf8df246ae25edd778e6787
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 775a51533aec8164d8ddb5d79d29bda4,
+      type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 66a1d29aee1b23c46acc51b6b1b3b0c6,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: a66d2497d71ce8f43bc0fa3d12c0cf0b,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 479fa51d0205ea74ab3d7230f4e08e93,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 2ae0a4a226e8d9e4aba56d1e2eb3977b,
+      type: 2}

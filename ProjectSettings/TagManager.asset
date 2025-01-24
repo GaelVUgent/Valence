@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - MoveWhenIntersecting
+  - Bullet
+  - GrabProbe
+  - UI
+  - Hand
+  - BottomLine
+  - UserPixel
+  - Neck
+  - Left_Hand_Ring
+  - Upper_Right_Arm
+  - Right_Shoulder
+  - Left_Hand_Opt
+  - trunk_side_bending_text
+  - Upper_Right_Arm_Opt
+  - left_upper_arm_text
+  - Upper_Left_Arm
+  - Upper_Right_Leg_Opt
+  - Lower_Right_Leg
+  - Head
+  - Lower_Right_Leg_Opt
+  - meshes
+  - Right_Hand_Opt
+  - trunk_twist_text
+  - Right_Toe
+  - Lower_Left_Leg
+  - Right_Hand_Ring
+  - right_lower_arm_text
+  - female_skeleton
+  - Left_Shoulder
+  - Left_Hand
+  - Right_Shoulder_Opt
+  - Left_Foot
+  - Upper_Left_Leg_Opt
+  - Lower_Right_Arm_Opt
+  - Lower_Right_Arm
+  - Left_Shoulder_Opt
+  - beta_joints_mesh
+  - Upper_Right_Leg
+  - Right_Hand
+  - reba_score_text
+  - Upper_Left_Arm_Opt
+  - Right_Foot
+  - Lower_Left_Arm
+  - Left_Foot_Opt
+  - Neck_Opt
+  - Trunk_Opt
+  - Upper_Left_Leg
+  - left_lower_arm_text
+  - Lower_Left_Leg_Opt
+  - Right_Foot_Opt
+  - Hip
+  - Left_Toe
+  - trunk_bending_text
+  - right_upper_arm_text
+  - Trunk
+  - Lower_Left_Arm_Opt
+  - male_skeleton
+  - mesh_obj
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Restricted
+  - Player
+  - Grabbable
+  - Brubotics
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

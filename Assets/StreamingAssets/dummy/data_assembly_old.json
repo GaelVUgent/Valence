@@ -1,0 +1,183 @@
+{
+    "DurationBetweenBlocks": 0.0,
+    "DurationBetweenTrials": 0.0,
+    "Blocks": [{
+            "Trials": [{
+                    "LinkedActions": [],
+                    "LinkedConditions": [],
+                    "IsRequired": false,
+                    "Name": "Setup",
+                    "Description": "",
+                    "Id": 0
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 1",
+                    "Description": "",
+                    "Id": 1
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 2",
+                    "Description": "",
+                    "Id": 2
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 3",
+                    "Description": "",
+                    "Id": 3
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 4",
+                    "Description": "",
+                    "Id": 4
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 5",
+                    "Description": "",
+                    "Id": 5
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 6",
+                    "Description": "",
+                    "Id": 6
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 7",
+                    "Description": "",
+                    "Id": 7
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 8",
+                    "Description": "",
+                    "Id": 8
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 9",
+                    "Description": "",
+                    "Id": 9
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 10",
+                    "Description": "",
+                    "Id": 10
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 11",
+                    "Description": "",
+                    "Id": 11
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 12",
+                    "Description": "",
+                    "Id": 12
+                }, {
+                    "LinkedActions": [0, 1, 2, 3, 4, 5, 6, 7],
+                    "LinkedConditions": [0, 1, 2],
+                    "IsRequired": true,
+                    "Name": "Piece 13",
+                    "Description": "",
+                    "Id": 13
+                }
+            ],
+            "IsBreak": false,
+            "Name": "Assembly task",
+            "Description": "",
+            "Id": 0
+        }
+    ],
+    "AllConditions": [{
+            "Name": "PartWithRobotArm",
+            "Description": "",
+            "Id": 0
+        }, {
+            "Name": "PartInHand",
+            "Description": "",
+            "Id": 1
+        }, {
+            "Name": "PartAttached",
+            "Description": "",
+            "Id": 2
+        }
+    ],
+    "AllActions": [{
+            "IsRequired": false,
+            "Name": "GrabPiece",
+            "Description": "",
+            "Id": 0,
+            "IsPhysical": true,
+            "CompletedInTrialId": 0
+        }, {
+            "IsRequired": false,
+            "Name": "PieceChangeHand",
+            "Description": "",
+            "Id": 1,
+            "IsPhysical": true,
+            "CompletedInTrialId": 0
+        }, {
+            "IsRequired": false,
+            "Name": "DropPiece",
+            "Description": "",
+            "Id": 2,
+            "IsPhysical": true,
+            "CompletedInTrialId": 0
+        }, {
+            "IsRequired": false,
+            "Name": "VisualSnap",
+            "Description": "",
+            "Id": 3,
+            "IsPhysical": false,
+            "CompletedInTrialId": 0
+        }, {
+            "IsRequired": false,
+            "Name": "SnapPiece",
+            "Description": "",
+            "Id": 4,
+            "IsPhysical": false,
+            "CompletedInTrialId": 0
+        }, {
+            "IsRequired": true,
+            "Name": "ConfirmPiece",
+            "Description": "",
+            "Id": 5,
+            "IsPhysical": false,
+            "CompletedInTrialId": 0
+        }, {
+            "IsRequired": false,
+            "Name": "ResetPieces",
+            "Description": "",
+            "Id": 6,
+            "IsPhysical": false,
+            "CompletedInTrialId": 0
+        }, {
+            "IsRequired": false,
+            "Name": "ChangeInstruction",
+            "Description": "",
+            "Id": 7,
+            "IsPhysical": false,
+            "CompletedInTrialId": 0
+        }
+    ]
+}
