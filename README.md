@@ -1,4 +1,4 @@
-# COBOT-VR - A human-cobot interaction simulator to study different levels of cognitive load
+# COBOT-VR - A VR industrial assembly task designed to study the effects of collaborative robot (cobot) support on operator hesitation.
 ## Project: 101070596 — euROBIN — HORIZON-CL4-2021-DIGITAL-EMERGING-01
 <img width="965" alt="Scherm­afbeelding 2025-01-24 om 13 20 37" src="https://github.com/user-attachments/assets/6b4018ca-7966-48ee-b01b-0a9c77099049" />
 
